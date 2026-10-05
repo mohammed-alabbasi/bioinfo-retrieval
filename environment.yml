@@ -1,0 +1,14 @@
+name: bioinfo-skill1-retrieval
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - biopython=1.83
+  - requests=2.31
+  - r-base=4.3
+  - bioconductor-biomart=2.58.0
+  - bioconductor-geoquery=2.70.0
+  - r-irkernel
+  - jupyter
+  - ipykernel
