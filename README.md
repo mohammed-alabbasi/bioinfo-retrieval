@@ -19,7 +19,7 @@ No notebook reads a file written by another; they can be run in any order.
 
 | # | Notebook | Language | Source | Record | What is retrieved |
 |---|----------|----------|--------|--------|-------------------|
-| 1 | `01_example1_lacZ_entrez.ipynb` | Python | NCBI Entrez (E-utilities) via Biopython | *lacZ*, GenBank `V00613` (*Escherichia coli*) | Full GenBank record; CDS extracted, length and GC content computed |
+| 1 | `01_example1_Tn3_entrez.ipynb` | Python | NCBI Entrez (E-utilities) via Biopython | *Transposon Tn3 (E. coli)*, GenBank `V00613` | Full GenBank record; CDS extracted, length and GC content computed |
 | 2 | `02_example2_BRCA1_ensembl.ipynb` | Python | Ensembl REST API via `requests` | *BRCA1*, `ENSG00000012048` (*Homo sapiens*) | Gene-level annotation: symbol, chromosome, coordinates, biotype |
 | 3 | `03_example3_insulin_uniprot.ipynb` | Python | UniProt REST API via `requests` | Insulin, `P01308` (*Homo sapiens*) | Protein name, organism and full precursor sequence |
 | 4 | `04_example4_batch_insulin.ipynb` | Python | NCBI Entrez, batched `efetch` | *INS* `NM_000207` (human) and *Ins2* `NM_008387` (mouse) | Two mRNA records in a single call; CDS lengths compared |
@@ -30,7 +30,7 @@ No notebook reads a file written by another; they can be run in any order.
 
 ```
 .
-├── 01_example1_lacZ_entrez.ipynb
+├── 01_example1_Tn3_entrez.ipynb
 ├── 02_example2_BRCA1_ensembl.ipynb
 ├── 03_example3_insulin_uniprot.ipynb
 ├── 04_example4_batch_insulin.ipynb
@@ -80,7 +80,7 @@ Values below come from the public records themselves. Figures derived from live 
 
 | # | Key results | Files written |
 |---|-------------|---------------|
-| 1 | *lacZ* coding sequence of 3,075 bp (β-galactosidase, about 1,024 residues), GC content of about 52% | `data/V00613.gb`, `data/lacZ_V00613_cds.fasta`, `results/example1_lacZ_summary.txt` |
+| 1 | *Transposon Tn3 (E. coli)* coding sequence of 3,048 bp, GC content of about 51.7% | `data/V00613.gb`, `data/Tn3_V00613_cds.fasta`, `results/example1_Tn3_summary.txt` |
 | 2 | *BRCA1* on chromosome 17, biotype `protein_coding` | `results/example2_BRCA1_summary.json` |
 | 3 | Preproinsulin of 110 amino acids; the mature hormone is the 51-residue product of its A and B chains | `data/P01308_insulin.fasta`, `results/example3_insulin_summary.json` |
 | 4 | Both the human *INS* and mouse *Ins2* coding sequences are 333 bp | `data/insulin_INS_Ins2.gb`, `results/example4_cds_lengths.csv` |

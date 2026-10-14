@@ -1,0 +1,2 @@
+CDS length: 3048 bp
+CDS GC content: 51.7%

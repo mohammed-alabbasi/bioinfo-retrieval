@@ -1,0 +1,6 @@
+"hgnc_symbol","ensembl_gene_id","entrezgene_id","chromosome_name","gene_biotype"
+"BRCA1","ENSG00000012048",672,17,"protein_coding"
+"BRCA2","ENSG00000139618",675,13,"protein_coding"
+"ERBB2","ENSG00000141736",2064,17,"protein_coding"
+"ESR1","ENSG00000091831",2099,6,"protein_coding"
+"PGR","ENSG00000082175",5241,11,"protein_coding"

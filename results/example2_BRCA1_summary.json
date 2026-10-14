@@ -1,0 +1,9 @@
+{
+  "id": "ENSG00000012048",
+  "display_name": "BRCA1",
+  "seq_region_name": "17",
+  "start": 43044292,
+  "end": 43170245,
+  "strand": -1,
+  "biotype": "protein_coding"
+}
